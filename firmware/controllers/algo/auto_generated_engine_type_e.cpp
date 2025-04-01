@@ -157,6 +157,8 @@ case engine_type_e::PROTEUS_ANALOG_PWM_TEST:
   return "PROTEUS_ANALOG_PWM_TEST";
 case engine_type_e::PROTEUS_BMW_M73:
   return "PROTEUS_BMW_M73";
+  case engine_type_e::PROTEUS_BMW_N54:
+    return "PROTEUS_BMW_N54";
 case engine_type_e::PROTEUS_GM_LS_4:
   return "PROTEUS_GM_LS_4";
 case engine_type_e::PROTEUS_LUA_DEMO:

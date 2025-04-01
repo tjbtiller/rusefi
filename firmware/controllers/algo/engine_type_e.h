@@ -133,6 +133,7 @@ enum class engine_type_e : uint16_t {
 	EEPROM_BENCH_ENGINE = 61,
 	MRE_VW_B6 = 62,
 	PROTEUS_BMW_M73 = 63,
+  PROTEUS_BMW_N54 = 106,
 	DODGE_RAM = 64,
 	GM_LNF = 65,
 	HONDA_OBD1 = 66,

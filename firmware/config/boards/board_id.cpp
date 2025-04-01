@@ -40,6 +40,13 @@ board_id_t getBoardId() {
     }
 #endif
 
+#if HW_MSD8XPNP
+    if (engineConfiguration->engineType == engine_type_e::MSD8XPNP_BMW_N54) {
+        // a way to test harness patch cord
+        return STATIC_BOARD_ID_MSD8XPnP_N54;
+    }
+#endif
+
 #if HW_HELLEN_8CHAN
     if (engineConfiguration->engineType == engine_type_e::GM_SBC) {
         // a way to test harness patch cord
