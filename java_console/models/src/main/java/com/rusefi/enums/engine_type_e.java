@@ -111,4 +111,5 @@ public enum engine_type_e {
 	PROTEUS_NISSAN_VQ35,
 	HYUNDAI_PB,
 	FERRARI_F136,
+	PROTEUS_BMW_N54,
 }
